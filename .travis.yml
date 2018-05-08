@@ -6,4 +6,7 @@ install:
     - make build
 
 script:
-    - echo "TODO"
+    - leaf.py
+
+notifications:
+    - email: false
